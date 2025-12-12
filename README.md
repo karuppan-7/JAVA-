@@ -1,2 +1,2 @@
 # JAVA-
-A collection of simple Java programs demonstrating basic input and output using the Scanner class. Includes examples for reading integers, strings, and characters, performing basic logic, and printing results. Ideal for beginners learning Java I/O fundamentals.
+I learned the fundamentals of Java programming, including variables, data types, input and output using Scanner, conditional statements, loops, arrays, methods, classes, objects, and basic problem-solving. I also practiced writing clean, simple, and structured Java programs.
