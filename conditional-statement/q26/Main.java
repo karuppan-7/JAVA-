@@ -1,0 +1,21 @@
+/******************************************************************************
+
+Q26. Java Program to check whether a triangle is equilateral, isosceles, or scalene
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter sides a, b, c: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        if(a == b && b == c)
+            System.out.println("Equilateral triangle");
+        else if(a == b || b == c || a == c)
+            System.out.println("Isosceles triangle");
+        else
+            System.out.println("Scalene triangle");
+    }
+}

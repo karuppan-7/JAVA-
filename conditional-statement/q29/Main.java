@@ -1,0 +1,19 @@
+/******************************************************************************
+
+Q29. Java Program to check whether the sum of three angles forms a valid triangle.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter three angles: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        if(a + b + c == 180)
+            System.out.println("Valid triangle");
+        else
+            System.out.println("Not a valid triangle");
+    }
+}

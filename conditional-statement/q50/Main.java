@@ -1,0 +1,23 @@
+/******************************************************************************
+
+Q50.Write a Java program to calculate electricity bill using slab rates
+(0–100 free, 101–300 = ₹5/unit, >300 = ₹10/unit) and apply surcharge if consumption exceeds 500 units.
+*******************************************************************************/
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int units = sc.nextInt();
+        int bill = 0;
+
+        if(units > 100 && units <= 300)
+            bill = (units - 100) * 5;
+        else if(units > 300)
+            bill = (200 * 5) + (units - 300) * 10;
+
+        if(units > 500)
+            bill += 200;
+
+        System.out.println("Bill: " + bill);
+    }
+}
